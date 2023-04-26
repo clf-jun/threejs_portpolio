@@ -17,7 +17,7 @@ const Hero = () => {
             <span className='text-[#915eff]'>Chriss Lee</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            저는 이것저것 코딩합니다.<br className='sm:block hidden'/> 웹 프론트엔드 개발자로서 다양한 웹사이트들을 제작해왔습니다.
+            저는 웹 개발자가 되기 위해 다양한 프로젝트를 해왔습니다.<br className='sm:block hidden'/> 최근 인터렉티브 웹에 관심이 있습니다.
           </p>
         </div>
       </div>

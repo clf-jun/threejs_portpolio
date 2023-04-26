@@ -1,6 +1,6 @@
 import {
-    mobile,
     backend,
+    blender,
     creator,
     web,
     javascript,
@@ -17,9 +17,10 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    upbyte,
+    elontomars,
+    myblog,
+    quora,
     threejs,
   } from "../assets";
   
@@ -44,16 +45,16 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
     {
       title: "Content Creator",
       icon: creator,
+    },
+    {
+      title: "3D Modeling",
+      icon: blender,
     },
   ];
   
@@ -159,38 +160,11 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Myblog",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "리액트와 Express를 활용해서 만든 개인 블로그 입니다. 기본적인 CRUD를 지원하고 개인 로그인 및 구글 Oauth기반 로그인, 사진 업로드, 내용 및 태그별 검색, 반응형 디자인을 지원합니다.",
       tags: [
         {
           name: "react",
@@ -201,55 +175,76 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "redux",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: myblog,
+      source_code_link: "https://github.com/clf-jun/myblog",
     },
     {
-      name: "Job IT",
+      name: "QuoraClone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "북미권 지식인 쿼라 클론코딩입니다. 프론트는 리액트, MUI를 사용했으며 백엔드는 Firebase 입니다. 기본적인 CRUD와 구글 Oauth 기반 로그인이 가능합니다",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "redux",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: quora,
+      source_code_link: "https://github.com/clf-jun/quora_clone_project",
     },
     {
-      name: "Trip Guide",
+      name: "Upbyte",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "리액트와 Express 기반, 업비트의 Rest Api 및 웹소켓 Api를 활용해서 만든 실시간 모의코인 거래소입니다. 오픈 소스를 기반으로 시작했으며, 아직 제작 중에 있습니다.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "websocket api",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: upbyte,
+      source_code_link: "https://github.com/clf-jun",
+    },
+    {
+      name: "ElonToMars",
+      description:
+        "ELONHERO라는 밈 코인을 제작하면서 만든 홍보용 게임입니다. 유니티(C#)로 구현하였으며, WebGL 방식으로 빌드를 하여 웹사이트 내에서 플레이가 가능하도록 하였습니다.",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "webgl",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: elontomars,
+      source_code_link: "https://github.com/clf-jun",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

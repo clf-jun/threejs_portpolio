@@ -45,8 +45,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>지금까지 해 온 것들</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={styles.sectionSubText}>나랑 전혀 상관 없는</p>
+        <h2 className={styles.sectionHeadText}>Work Experience(예시)</h2>
       </motion.div>
       
       <div className='mt-20 flex flex-col'>

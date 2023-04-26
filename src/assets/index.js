@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
+import blender from "./blender.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -26,15 +26,15 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import upbyte from "./upbyte.jpg";
+import elontomars from "./elontomars.png";
+import myblog from "./myblog.jpg";
+import quora from "./quora.jpg";
 
 export {
   logo,
   backend,
   creator,
-  mobile,
   web,
   github,
   menu,
@@ -56,7 +56,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  upbyte,
+  elontomars,
+  myblog,
+  quora,
+  blender,
 };
