@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import upbyte from "./upbyte.png";
-import elontomars from "./elontomars.png";
+import elontomars from "./elontomars.jpg";
 import myblog from "./myblog.png";
 import quora from "./quora.png";
 
