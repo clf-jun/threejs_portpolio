@@ -28,8 +28,8 @@ import tesla from "./company/tesla.png";
 
 import upbyte from "./upbyte.png";
 import elontomars from "./elontomars.png";
-import myblog from "./myblog.jpg";
-import quora from "./quora.jpg";
+import myblog from "./myblog.png";
+import quora from "./quora.png";
 
 export {
   logo,
