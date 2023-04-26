@@ -26,7 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import upbyte from "./upbyte.jpg";
+import upbyte from "./upbyte.png";
 import elontomars from "./elontomars.png";
 import myblog from "./myblog.jpg";
 import quora from "./quora.jpg";
